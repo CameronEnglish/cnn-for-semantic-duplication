@@ -72,7 +72,6 @@ with open('/home/cameron/CS/CSTensorFlow/output/newOutput.txt') as f:
 
 # shape is clu, k, d
 
-#TODO THESE DIMENSIONS MAY BE MISORDERED
 # layer to compute the question-wide vectors
 # produces features for each word in the question then sums them to create a question vector 
 X1 = tf.placeholder(tf.float32, [None, 100, 200])
